@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+	box-sizing: border-box;
+}
+
+img {
+	height: 400px;
+	max-width: 100%;
+}
+
+body {
+	color: #44545E;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+h1 {
+	font-size: 37px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	text-transform: initial;
+}
+
+a {
+	color: #44545E;
+	text-decoration: none;
+}
+
+
+/* ----------------------------------------
+Layout
+------------------------------------------- */
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-container--col {
+	flex-direction: column;
+}
+
+section {
+	padding: 50px;
+}
+
+article {
+	padding: 20px;
+	width: 33%;
+}
+
+.about {
+	background-color: #CFF2F6;
+	padding: 50px 150px;
+}
+
+.gallery img {
+	padding: 10px;
+	width: 33%;
+}
+
+.gallery img:hover {
+	opacity: 0.7;
+}
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+header {
+	background-attachment: fixed;
+	background-image: url(../images/home_header_bg.jpg);
+	background-size: cover;
+	height: 500px;
+
+	justify-content: center;
+	align-items: center;
+}
+
+nav {
+	background-color: #FFFFFF;
+	padding: 30px;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+nav a {
+	color: #7B98AA;
+	margin: 40px;
+}
+
+nav a:hover {
+	color: #44545E;
+}
+
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+.button--outline {
+	border: 2px solid #44545E;
+	font-size: 13px;
+	padding: 5px 20px;
+}
+
+.button--outline:hover {
+	background-color: #44545E;
+	color: #FFFFFF;
+}
+
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
+footer {
+	background-color: #CFF2F6;
+	padding: 50px;
+}
+
+input {
+	padding: 6px 20px;
+  margin: 30px;
+  text-align: center;
+  border: 0;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.social-icons a {
+	font-size: 30px;
+	margin: 5px;
+}
