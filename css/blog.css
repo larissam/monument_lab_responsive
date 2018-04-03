@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #44545E;
+	margin: 0;
+}
+
+h1 {
+	font-size: 37px;
+	margin: 0;
+	text-align: center;
+	padding: 100px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+p {
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	text-transform: initial;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #44545E;
+}
+
+nav {
+	padding: 20px;
+	text-align: center;
+}
+
+nav a {
+	color: #7B98AA;
+	font-size: 16px;
+	margin: 40px;
+}
+
+header {
+	background-image: url(../images/blog_header_bg.jpg);
+	background-size: cover;
+	height: 250px;
+}
+
+header a {
+	color: #44545E;
+}
+
+article,
+aside {
+	margin: 40px;
+}
+
+aside a {
+	color: #7B98AA;
+	font-family: 'Raleway', sans-serif;
+	text-transform: none;
+}
+
+footer {
+	background-color: #CDF3F6;
+	padding: 50px;
+	text-align: center;
+
+}
+
+footer a {
+	font-size: 15px;
+}
+
+.social-icons a {
+	font-size: 30px;
+	margin: 5px;
+}
+
+/* Fix for responsive images */
+img {
+	max-width: 100%;
+}
